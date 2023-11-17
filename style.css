@@ -1,112 +1,114 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('/images/background.jpeg') no-repeat center fixed;     
-    background-size: cover;
-    background-color: aqua;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("/images/background.jpeg") no-repeat center fixed;
+  background-size: cover;
+  background-color: aqua;
 }
 
 header {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #2196F3;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2196f3;
 }
 
-h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #2196F3;
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2196f3;
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .bio {
-    font-size: 1rem;
-    line-height: 1.5;
-    /* width: 70%; */
-    margin-left: 20%;
-    margin-right: 20%;
+  font-size: 1rem;
+  line-height: 1.5;
+  /* width: 70%; */
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .band-image {
-    width: 400px;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 10%;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10%;
 }
 
 main {
-    margin: 0 auto;
-    max-width: 800px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 /* Band Member Section Styles */
 .band-member {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .member-image {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-    border-radius: 50%;
-    border: 2px solid #2196F3;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 2px solid #2196f3;
 }
-
 
 /* Link Styles */
 a {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Footer Styles */
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #2196F3;
-    color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2196f3;
+  color: #fff;
 }
 
-.songs-albums-container, .listen-to-songs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 50px;
+.songs-albums-container,
+.listen-to-songs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px;
 }
 
-.songs, .albums, {
-    width: 300px;
-    padding: 20px;
+.songs,
+.albums {
+  width: 300px;
+  padding: 20px;
 }
 
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 footer p {
-    font-size: 14px;
+  font-size: 14px;
 }
