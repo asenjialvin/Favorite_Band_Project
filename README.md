@@ -11,20 +11,20 @@ Description: This project was made to evaulate my understanding of web design.
 # Objectives
 
 1. Correct use of HTML Elements and tags;
-    p, div, span, header tags, ordered and unordered list tags, img, strong, em
+    - p, div, span, header tags, ordered and unordered list tags, img, strong, em
 2. Page incorporates a custom-made stylesheet 
 3. Use of at least 4 of the following styling rules
-    selectors
-    box model
-    background-color
-    font family
-    pseudoclasses
-    strong and em tags
-    overflow
-    borders
-    block elements
-    Font weight 
-    Font style
+    - selectors
+    - box model
+    - background-color
+    - font family
+    - pseudoclasses
+    - strong and em tags
+    - overflow
+    - borders
+    - block elements
+    - Font weight 
+    - Font style
 4. The web page is visualing appealing
 5. The page is published to gh-pages
 
