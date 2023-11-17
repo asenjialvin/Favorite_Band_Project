@@ -2,6 +2,8 @@
 
 Project name: Favorite Band.
 
+Link to the Site: https://asenjialvin.github.io/favorite_band.github.io/
+
 Project author: Alvin Muhindi Asenji.
 
 Description: This project was made to evaulate my understanding of web design.
