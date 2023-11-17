@@ -77,6 +77,29 @@ footer {
     color: #fff;
 }
 
+.songs-albums-container, .listen-to-songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.songs, .albums, {
+    width: 300px;
+    padding: 20px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
 footer p {
     font-size: 14px;
 }
