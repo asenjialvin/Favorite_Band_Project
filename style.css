@@ -92,6 +92,15 @@ footer {
   margin: 50px;
 }
 
+.Feedback {
+    display: contents;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px;
+}
+
 .songs,
 .albums {
   width: 300px;
@@ -109,14 +118,11 @@ li {
   margin-bottom: 5px;
 }
 
-footer p {
-  font-size: 14px;
-}
-
 form {
     width: 500px;
     margin: 0 auto;
     padding: 20px;
+    color: #007bff;
 }
 
 .form-group {
@@ -126,6 +132,7 @@ form {
   label {
     display: block;
     margin-bottom: 5px;
+    color: #007bff;
   }
   
   input, textarea {
@@ -133,11 +140,12 @@ form {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    border-color: #007bff;
   }
   
   #submitButton {
     background-color: #007bff;
-    color: #fff;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
@@ -147,4 +155,11 @@ form {
   #feedbackMessage {
     margin-top: 20px;
     font-weight: bold;
+    color: yellow;
   }
+
+
+footer p {
+  font-size: 14px;
+}
+
